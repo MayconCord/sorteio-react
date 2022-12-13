@@ -6,7 +6,7 @@ function Sort() {
     const [num, setNum] = useState(1)
 
     const pegaNumero = () => {
-        var a = Math.floor(Math.random() * 100);
+        var a = Math.floor(Math.random() * 99 + 1);
         setNum(a)
     }
 
